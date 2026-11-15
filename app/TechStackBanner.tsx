@@ -7,7 +7,10 @@ const technologies = [
   "MongoDB Atlas",
   "Vercel",
   "GitHub",
-  "ElevenLabs"
+  "ElevenLabs",
+  "Gemini",
+  "Claude",
+  "ChatGPT"
 ];
 
 export default function TechStackBanner() {
