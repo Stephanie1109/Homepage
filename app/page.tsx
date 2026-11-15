@@ -75,7 +75,7 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-transparent text-[#f2e9d5]">
+    <main className="odyssey-home min-h-screen bg-transparent text-[#f2e9d5]">
 
       {/* NAVIGATION */}
       <nav className="odyssey-nav flex flex-wrap items-center justify-between gap-5 px-6 py-5 md:px-12">
