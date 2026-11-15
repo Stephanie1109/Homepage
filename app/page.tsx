@@ -58,7 +58,7 @@ export default function Home() {
   const router = useRouter();
   const [name, setName] = useState("");
 
-  // NEW: Remember returning player
+  // Remember returning player
   useEffect(() => {
     const savedName = localStorage.getItem("fazePlayer");
 
@@ -80,6 +80,7 @@ export default function Home() {
       {/* NAVIGATION */}
       <nav className="odyssey-nav flex flex-wrap items-center justify-between gap-5 px-6 py-5 md:px-12">
 
+        {/* FaZe Logo + Website Name */}
         <Link
           href="/"
           className="flex items-center gap-3 text-xl font-black tracking-wider text-[#f2e9d5]"
@@ -93,9 +94,6 @@ export default function Home() {
           <span>
             THE <span className="text-red-500">FAZE</span> ODYSSEY
           </span>
-        </Link>
-
-          THE <span className="text-red-500">FAZE</span> ODYSSEY
         </Link>
 
         <div className="flex flex-wrap gap-5 text-xs font-bold tracking-widest md:text-sm">
@@ -332,7 +330,7 @@ export default function Home() {
               </h3>
 
               <p className="mt-3 text-sm text-zinc-300">
-                Discover FaZe's competitive history
+                Discover FaZe&apos;s competitive history
                 and major esports achievements.
               </p>
 
