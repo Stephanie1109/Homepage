@@ -3,8 +3,11 @@ const technologies = [
   "Next.js",
   "React",
   "TypeScript",
-  "MongoDB",
+  "Tailwind CSS",
+  "MongoDB Atlas",
+  "Vercel",
   "GitHub",
+  "ElevenLabs",
 ];
 
 export default function TechStackBanner() {
