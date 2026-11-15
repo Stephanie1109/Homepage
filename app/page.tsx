@@ -1,6 +1,7 @@
 
 "use client";
 
+import TechStackBanner from "./TechStackBanner";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -361,6 +362,9 @@ export default function Home() {
 
         </div>
       </section>
+
+      {/* TECHNOLOGY STACK BANNER */}
+      <TechStackBanner />
 
       {/* FOOTER */}
       <footer className="px-6 py-10 text-center">

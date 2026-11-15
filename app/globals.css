@@ -319,3 +319,81 @@ input:focus-visible {
     transition: none;
   }
 }
+
+
+/* Faze Odyssey — Animated Technology Stack */
+
+.tech-stack-section {
+  padding: 55px 0 35px;
+  background: #0b1624;
+  text-align: center;
+  overflow: hidden;
+}
+
+.tech-stack-section h2 {
+  color: #ddbb80;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.tech-stack-section p {
+  color: #9ca3af;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.tech-stack-marquee {
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+  border-top: 1px solid #344254;
+  border-bottom: 1px solid #344254;
+}
+
+.tech-stack-track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  gap: 40px;
+  animation: techScroll 20s linear infinite;
+}
+
+.tech-stack-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #e4e9f1;
+  font-size: 18px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tech-stack-star {
+  color: #ddbb80;
+}
+
+@keyframes techScroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.tech-stack-marquee:hover .tech-stack-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tech-stack-track {
+    animation: none;
+  }
+
+  .tech-stack-marquee {
+    overflow-x: auto;
+  }
+}
