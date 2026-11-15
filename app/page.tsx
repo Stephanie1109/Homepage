@@ -82,8 +82,19 @@ export default function Home() {
 
         <Link
           href="/"
-          className="text-xl font-black tracking-wider text-[#f2e9d5]"
+          className="flex items-center gap-3 text-xl font-black tracking-wider text-[#f2e9d5]"
         >
+          <img
+            src="/faze-logo.svg"
+            alt="FaZe Clan logo"
+            className="h-12 w-12 object-contain"
+          />
+
+          <span>
+            THE <span className="text-red-500">FAZE</span> ODYSSEY
+          </span>
+        </Link>
+
           THE <span className="text-red-500">FAZE</span> ODYSSEY
         </Link>
 
