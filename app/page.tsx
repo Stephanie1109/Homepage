@@ -378,7 +378,7 @@ export default function Home() {
         </p>
 
         <p className="mt-6 text-xs text-zinc-500">
-          HackUTA 2026 · Independent hackathon prototype
+          HackUTA 2026 · Project FAZE ODYSSEY
         </p>
       </footer>
 
